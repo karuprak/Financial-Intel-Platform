@@ -134,7 +134,7 @@ Open `dashboard/financial_dashboard.pbix` → Click Refresh → Data
 ## Author
 
 **Prakash Karunanithi**
-- [LinkedIn](https://www.linkedin.com/in/prakash-karunanithi)
+- [LinkedIn](https://www.linkedin.com/in/prakash-karunanithi-076965244/)
 - [GitHub](https://github.com/karuprak)
 
 ---
