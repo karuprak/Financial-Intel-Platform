@@ -1,0 +1,26 @@
+# Secret keys - never push to GitHub
+.env
+
+# Python junk files
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environment folder
+venv/
+.venv/
+
+# VS Code settings
+.vscode/
+
+# Mac junk (just in case)
+.DS_Store
+
+# Data files (too large for GitHub)
+data/bronze/
+data/silver/
+data/gold/
+
+
+# Dashboard data file
+dashboard/revenue_metrics.csv

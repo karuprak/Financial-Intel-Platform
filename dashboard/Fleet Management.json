@@ -1,0 +1,88 @@
+{
+    "name": "Fleet Management Dark Amber",
+    "dataColors": [
+        "#FFD154", 
+        "#E6E6E6", 
+        "#A6A6A6", 
+        "#7F7F7F", 
+        "#FFC107", 
+        "#D4AF37", 
+        "#FDFD96", 
+        "#FFFFFF"
+    ],
+    "background": "#3A3F44",
+    "foreground": "#FFFFFF",
+    "tableAccent": "#FFD154",
+    "visualStyles": {
+        "*": {
+            "*": {
+                "background": [
+                    {
+                        "show": true,
+                        "color": { "solid": { "color": "#2C3136" } },
+                        "transparency": 0
+                    }
+                ],
+                "border": [
+                    {
+                        "show": true,
+                        "color": { "solid": { "color": "#4D545C" } },
+                        "radius": 4
+                    }
+                ],
+                "title": [
+                    {
+                        "show": true,
+                        "fontFamily": "Segoe UI Semibold",
+                        "fontSize": 12,
+                        "color": { "solid": { "color": "#FFFFFF" } }
+                    }
+                ],
+                "labels": [
+                    {
+                        "show": true,
+                        "color": { "solid": { "color": "#FFFFFF" } }
+                    }
+                ]
+            }
+        },
+        "page": {
+            "*": {
+                "background": [
+                    {
+                        "color": { "solid": { "color": "#3A3F44" } },
+                        "transparency": 0
+                    }
+                ]
+            }
+        },
+        "card": {
+            "*": {
+                "labels": [
+                    {
+                        "color": { "solid": { "color": "#FFFFFF" } },
+                        "fontSize": 35,
+                        "fontFamily": "Segoe UI Bold"
+                    }
+                ],
+                "categoryLabels": [
+                    {
+                        "color": { "solid": { "color": "#A6A6A6" } },
+                        "fontSize": 10
+                    }
+                ]
+            }
+        },
+        "donutChart": {
+            "*": {
+                "legend": [
+                    {
+                        "show": true,
+                        "position": "Top",
+                        "labelColor": { "solid": { "color": "#FFFFFF" } }
+                    }
+                ]
+            }
+        }
+    }
+}
