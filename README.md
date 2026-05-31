@@ -100,7 +100,9 @@ Username: admin
 Password: admin
 
 **7. Open Power BI**
+[View Live Interactive Dashboard](https://app.powerbi.com/view?r=eyJrIjoiM2E3NWEzYTgtNGEzMS00MDRmLWE4NDktOGQzYWJlNzkxNTVlIiwidCI6IjcwZGUxOTkyLTA3YzYtNDgwZi1hMzE4LWExYWZjYmEwMzk4MyIsImMiOjN9)
 
+Or download locally:
 Open `dashboard/financial_dashboard.pbix` → Click Refresh → Data
 
 ---
