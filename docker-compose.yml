@@ -9,7 +9,7 @@ services:
     volumes:
       - postgres-data:/var/lib/postgresql/data
     healthcheck:
-      test: ["CMD", "pg_isready", "-U", "airflow"]
+      test: ["CMD", "pg_isready", "-U", "airflow", "-d", "airflowdb"]
       interval: 5s
       retries: 5
 

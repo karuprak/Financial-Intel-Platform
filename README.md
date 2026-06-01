@@ -9,6 +9,13 @@
 ![Dashboard](dashboard/financial_dashboard_screenshot.png)
 
 ---
+## ⚙️ Pipeline in Action
+
+### Airflow DAG — 3 Tasks Running Automatically
+![Airflow DAG](dashboard/airflow_dag.png)
+
+---
+
 
 ## Architecture
 
