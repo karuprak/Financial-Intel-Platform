@@ -1,4 +1,4 @@
-# Financial Intelligence Platform
+# 🏦 Financial Intelligence Platform
 
 > An automated end-to-end data engineering pipeline that collects, transforms and visualizes financial data for 20 Fortune 500 companies using Apache Airflow, AWS S3, Python, Pandas, boto3, Docker and Power BI.
 
@@ -15,10 +15,17 @@
 ![Architecture](dashboard/architecture_diagram.png)
 
 ---
-## ⚙️ Pipeline in Action
 
-### Airflow DAG — 3 Tasks Running Automatically
+## Pipeline in Action
+
+### Airflow DAG — 3 Tasks Connected Automatically
 ![Airflow DAG](dashboard/airflow_dag.png)
+
+### Airflow — All 3 Tasks Completed Successfully
+![Airflow Success](dashboard/airflow_success.png)
+
+### Docker — All Containers Running
+![Docker Containers](dashboard/docker_containers.png)
 
 ---
 
@@ -46,7 +53,7 @@ Power BI reads the Gold layer and shows interactive charts. Click Refresh for la
 
 ---
 
-## Tech Stack
+## 🛠️ Tech Stack
 
 | Tool | Purpose |
 |------|---------|
@@ -62,13 +69,13 @@ Power BI reads the Gold layer and shows interactive charts. Click Refresh for la
 
 ---
 
-## Companies Tracked
+## 🏢 Companies Tracked
 
-Apple · Microsoft · Google · Amazon · Tesla · META · NVIDIA · JP Morgan · Walmart · Jhonson & Johnson · Goldman Sachs · Ford · General Motors · Pfizer · Target · NEFLIX · Alibaba · Disney · UBER · PayPal
+Apple · Microsoft · Google · Amazon · Tesla · META · NVIDIA · JP Morgan · Walmart · Johnson & Johnson · Goldman Sachs · Ford · General Motors · Pfizer · Target · Netflix · Alibaba · Disney · Uber · PayPal
 
 ---
 
-## How to Run
+## 🚀 How to Run
 
 **1. Clone the repo**
 ```bash
@@ -100,16 +107,15 @@ docker compose up -d
 ```
 
 **6. Open Airflow**
-Enable `sec_filing_pipeline` and click ▶ to run.
 URL:      http://localhost:8080
 Username: admin
 Password: admin
 
-**7. Open Power BI**
-[View Live Interactive Dashboard](https://app.powerbi.com/view?r=eyJrIjoiM2E3NWEzYTgtNGEzMS00MDRmLWE4NDktOGQzYWJlNzkxNTVlIiwidCI6IjcwZGUxOTkyLTA3YzYtNDgwZi1hMzE4LWExYWZjYmEwMzk4MyIsImMiOjN9)
+Enable `sec_filing_pipeline` and click ▶ to run.
 
-Or download locally:
-Open `dashboard/financial_dashboard.pbix` → Click Refresh → Data
+**7. View Dashboard**
+
+[View Live Interactive Dashboard](https://app.powerbi.com/view?r=eyJrIjoiM2E3NWEzYTgtNGEzMS00MDRmLWE4NDktOGQzYWJlNzkxNTVlIiwidCI6IjcwZGUxOTkyLTA3YzYtNDgwZi1hMzE4LWExYWZjYmEwMzk4MyIsImMiOjN9)
 
 ---
 
@@ -140,7 +146,7 @@ Open `dashboard/financial_dashboard.pbix` → Click Refresh → Data
 ## Author
 
 **Prakash Karunanithi**
-- [LinkedIn](https://www.linkedin.com/in/prakash-karunanithi-076965244/)
-- [GitHub](https://github.com/karuprak)
+- 💼 [LinkedIn](https://www.linkedin.com/in/prakash-karunanithi-076965244/)
+- 🐙 [GitHub](https://github.com/karuprak)
 
 ---
