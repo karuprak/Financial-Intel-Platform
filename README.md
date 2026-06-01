@@ -25,7 +25,7 @@
 ![Airflow Success](dashboard/airflow_success.png)
 
 ### Docker — All Containers Running
-![Docker Containers](dashboard/docker_containers.png)
+![Docker Containers](dashboard/docker.png)
 
 ---
 
