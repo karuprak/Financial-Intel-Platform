@@ -1,4 +1,4 @@
-# 🏦 Financial Intelligence Platform
+# Financial Intelligence Platform
 
 > An automated end-to-end data engineering pipeline that collects, transforms and visualizes financial data for 20 Fortune 500 companies using Apache Airflow, AWS S3, Python, Pandas, boto3, Docker and Power BI.
 
@@ -47,13 +47,13 @@ Power BI reads the Gold layer and shows interactive charts. Click Refresh for la
 
 | Layer | Description | Format |
 |-------|-------------|--------|
-| 🥉 Bronze | Raw data exactly as received from SEC | JSON |
-| 🥈 Silver | Cleaned, structured, deduplicated data | CSV |
-| 🥇 Gold | Aggregated business metrics ready for dashboard | CSV |
+| Bronze | Raw data exactly as received from SEC | JSON |
+| Silver | Cleaned, structured, deduplicated data | CSV |
+| Gold | Aggregated business metrics ready for dashboard | CSV |
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Tool | Purpose |
 |------|---------|
@@ -69,13 +69,13 @@ Power BI reads the Gold layer and shows interactive charts. Click Refresh for la
 
 ---
 
-## 🏢 Companies Tracked
+## Companies Tracked
 
 Apple · Microsoft · Google · Amazon · Tesla · META · NVIDIA · JP Morgan · Walmart · Johnson & Johnson · Goldman Sachs · Ford · General Motors · Pfizer · Target · Netflix · Alibaba · Disney · Uber · PayPal
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 **1. Clone the repo**
 ```bash
